@@ -25,4 +25,5 @@ def rhombus():
     turtle.up
     turtle.setposition(x,y)
     turtle.down
+    etert
     pass
