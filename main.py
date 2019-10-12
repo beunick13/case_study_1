@@ -13,17 +13,22 @@ def square(x,y,a,color,angle):
     turtle.forward(200)
     pass
 
-def triangle(x,y,,color):
+def triangle(x,y,color):
     #TODO: (Anzhelika) triangle
     pass
 
-def rhombus(x,y)
+def rhombus(x,y,a,b):
     # TODO: (Nikita) Draw rhombus
-def rhombus():
-    #TODO: (Nikita) rhombus
-    #
-    turtle.up
+    turtle.up()
     turtle.setposition(x,y)
-    turtle.down
-    etert
+    turtle.down()
+    turtle.pencolor()
+    turtle.forward(a)
+    turtle.left(45)
+    turtle.forward(b)
+    turtle.left(135)
+    turtle.forward(a)
+    turtle.left(45)
+    turtle.forward(b)
+    turtle.left(135)
     pass
