@@ -15,10 +15,10 @@ def square(x,y,a,color,angle):
 
 def triangle(x,y,a,color):
     #TODO: (Anzhelika) triangle
-    #ghf
-    ddhh
-    h
-    pass
+    
+
+
+
 
 def rhombus():
     #TODO: (Nikita) rhombus
