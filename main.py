@@ -13,7 +13,9 @@ def square(x,y,a,color,angle)
 
 def triangle(x,y,,color)
     #TODO: (Anzhelika) triangle
-    #
+    #ghf
+    ddhh
+    h
     pass
 
 def rhombus()
