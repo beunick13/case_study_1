@@ -6,8 +6,12 @@
 
 import turtle
 
-def square()
+def square(x,y,a,color)
+    #TODO
+    pass
 
-def triangle
+def triangle()
+    pass
 
-def parallelogram
+def rhombus()
+    pass
