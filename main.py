@@ -4,7 +4,7 @@
 #               Alexandra Kozadeeva ()
 #               Anzhelika Kurepova ()
 
-def square(x,y,a,color,angle)
+def square(x,y,a,color,angle):
     #TODO: (Alexandra) square
     import turtle
     turtle.forward(200)
@@ -12,7 +12,7 @@ def square(x,y,a,color,angle)
     turtle.forward(200)
     pass
 
-def triangle(x,y,,color)
+def triangle(x,y,,color):
     #TODO: (Anzhelika) triangle
     #ghf
     ddhh
@@ -21,6 +21,8 @@ def triangle(x,y,,color)
 
 def rhombus(x,y)
     # TODO: (Nikita) Draw rhombus
+def rhombus():
+    #TODO: (Nikita) rhombus
     #
     turtle.up
     turtle.setposition(x,y)
