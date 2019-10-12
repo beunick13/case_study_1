@@ -7,16 +7,19 @@
 import turtle
 
 def square(x,y,a,color,angle)
-    #TODO: (Alexandra) square
+    # TODO: (Alexandra) Draw square
     #
     pass
 
 def triangle(x,y,,color)
-    #TODO: (Anzhelika) triangle
+    # TODO: (Anzhelika) Draw triangle
     #
     pass
 
-def rhombus()
-    #TODO: (Nikita) rhombus
+def rhombus(x,y)
+    # TODO: (Nikita) Draw rhombus
     #
+    turtle.up
+    turtle.setposition(x,y)
+    turtle.
     pass
