@@ -6,13 +6,23 @@
 
 import turtle
 
-def square(x,y,a,color,angle):
+def square(x, y, a, color):
     #TODO: (Alexandra) square
     turtle.showturtle()
+    turtle.up()
+    turtle.setposition(x, y)
     turtle.down()
-    turtle.forward(200)
+    turtle.fillcolor(color)
+    turtle.begin_fill()
+    turtle.forward(a)
     turtle.right(90)
-    turtle.forward(200)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.forward(a)
+    turtle.right(90)
+    turtle.end_fill()
     pass
 
 def triangle(x,y,a,color):
@@ -34,3 +44,11 @@ def rhombus(x,y,a,b):
     turtle.forward(b)
     turtle.left(135)
     pass
+
+def main():
+        square (-100,0,150, 'brown')
+        square(-70, -30, 50, 'red')
+        turtle.mainloop()
+
+if __name__ == '__main__':
+    main()
