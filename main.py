@@ -26,7 +26,7 @@ def square(x, y, a, color):
     turtle.end_fill()
     pass
 
-def triangle(x,y,a,color):
+def triangle(x,y,size,color,angle):
     #TODO: (Anzhelika) triangle
     turtle.showturtle()
     turtle.up()
