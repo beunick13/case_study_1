@@ -63,14 +63,14 @@ def rhombus(x, y, a, b, color):
     turtle.end_fill()
     pass
 
-def circles (x, y, radius, colour):
-turtle.up()
-turtle.setposition(x, y)
-turtle.down()
-turtle.fillcolor(colour)
-turtle.begin_fill()
-turtle.circle(50)
-turtle.end_fill()
+def circle (x, y, radius, colour):
+    turtle.up()
+    turtle.setposition(x, y)
+    turtle.down()
+    turtle.fillcolor(colour)
+    turtle.begin_fill()
+    turtle.circle(50)
+    turtle.end_fill()
 
 
 def main():
