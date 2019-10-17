@@ -27,14 +27,14 @@ def square(x, y, a, color, angle):
     turtle.end_fill()
     pass
 
-def triangle(x, y, size, colour, angle):
+def triangle(x, y, size, color, angle):
     #TODO: (Anzhelika) triangle
     turtle.showturtle()
     turtle.up()
     turtle.setposition(x, y)
     turtle.setheading(angle)
     turtle.down()
-    turtle.fillcolor(colour)
+    turtle.fillcolor(color)
     turtle.begin_fill()
     turtle.forward(size)
     turtle.right(90)
@@ -45,10 +45,10 @@ def triangle(x, y, size, colour, angle):
     pass
 
 
-def rhombus(x, y, a, b, colour, angle):
+def rhombus(x, y, a, b, color, angle):
     # TODO: (Nikita) Draw rhombus
-    turtle.pencolor(colour)
-    turtle.fillcolor(colour)
+    turtle.pencolor(color)
+    turtle.fillcolor(color)
     turtle.up()
     turtle.setposition(x, y)
     turtle.setheading(angle)
@@ -65,11 +65,11 @@ def rhombus(x, y, a, b, colour, angle):
     turtle.end_fill()
     pass
 
-def circle (x, y, radius, colour):
+def circle (x, y, radius, color):
     turtle.up()
     turtle.setposition(x, y)
     turtle.down()
-    turtle.fillcolor(colour)
+    turtle.fillcolor(color)
     turtle.begin_fill()
     turtle.circle(radius)
     turtle.end_fill()
