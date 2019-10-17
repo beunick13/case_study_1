@@ -19,12 +19,15 @@ def triangle(x,y,a,color):
     #TODO: (Anzhelika) triangle
     pass
 
-def rhombus(x,y,a,b):
+
+def rhombus(x, y, a, b, color):
     # TODO: (Nikita) Draw rhombus
+    turtle.pencolor(color)
+    turtle.fillcolor(color)
     turtle.up()
     turtle.setposition(x,y)
     turtle.down()
-    turtle.pencolor()
+    turtle.beginfill()
     turtle.forward(a)
     turtle.left(45)
     turtle.forward(b)
@@ -33,4 +36,14 @@ def rhombus(x,y,a,b):
     turtle.left(45)
     turtle.forward(b)
     turtle.left(135)
+    turtle.end_fill()
     pass
+
+def circles (x, y, radius, colour):
+turtle.up()
+turtle.setposition(x, y)
+turtle.down()
+turtle.fillcolor(colour)
+turtle.begin_fill()
+turtle.circle(50)
+turtle.end_fill()
