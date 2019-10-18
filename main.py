@@ -1,7 +1,7 @@
 # Case 1
 
 # Developers:   Nikita Beushev ()
-#               Alexandra Kozadeeva ()
+#               Alexandra Kozadeeva (60%)
 #               Anzhelika Kurepova ()
 
 import turtle
@@ -141,26 +141,7 @@ def picture_4():
     pass
 
 
-def picture_5():
-    pass
-
-def picture_6():
-    circle (-300, -250, 100, 'white', 'red')
-    circle(-310, -240, 80, 'white', 'white')
-    circle (-320, -80, 50, 'white', 'red')
-    circle(-330, -70, 30, 'white', 'white')
-    rectangle(-410, -167, 53, 100, 90, 'white', 'black')
-    line(-370, -120, 20, 0, 'pink')
-    line(-370, -140, 20, 0, 'pink')
-    line(-370, -160, 20, 0, 'pink')
-    line(-370, -160, 40, 90, 'pink')
-    line(-400, -160, 40, 90, 'pink')
-    line(-400, -140, 14, 45, 'pink')
-    line(-400, -120, 14, 315, 'pink')
-    line(-330, -160, 40, 90, 'pink')
-    line(-330, -140, 14, 45, 'pink')
-    line(-330, -120, 14, 315, 'pink')
-    rhombus(1, 1, 10, 5, 0, 'white', 'black')
+def rocket():
     triangle(-200, -50, 50, 45, 'white', 'purple')
     triangle(-200, -120, 70, 90, 'white', 'lightblue')
     triangle(-128, -190, 97, 135, 'white', 'red')
@@ -168,7 +149,37 @@ def picture_6():
     square(-165, -225, 50, 45, 'white', 'orange')
     triangle(-95, -295, 50, 135, 'white', 'purple')
     rhombus(-235, -290, 50, 70, 45, 'white', 'green')
-    pass
+
+def pep_love():
+    circle (-300, -250, 100, 'white', 'red')
+    circle(-315, -240, 80, 'white', 'white')
+    circle (-320, -80, 50, 'white', 'red')
+    circle(-335, -70, 30, 'white', 'white')
+    rectangle(-420, -187, 53, 100, 90, 'white', 'black')
+    line(-380, -140, 20, 0, 'pink')
+    line(-380, -160, 20, 0, 'pink')
+    line(-380, -180, 20, 0, 'pink')
+    line(-380, -180, 40, 90, 'pink')
+    line(-410, -180, 40, 90, 'pink')
+    line(-410, -160, 14, 45, 'pink')
+    line(-410, -140, 14, 315, 'pink')
+    line(-340, -180, 40, 90, 'pink')
+    line(-340, -160, 14, 45, 'pink')
+    line(-340, -140, 14, 315, 'pink')
+    triangle(-500, -121, 26, 45, 'white', 'pink')
+    triangle(-497, -155, 33, 90, 'white', 'purple')
+    triangle(-495, -154, 40, 135, 'white', 'red')
+    rectangle(-500, -150, 9, 80, 0, 'white', 'green')
+    triangle(-500, -194, 20, 135, 'white', 'green')
+    rhombus(-513, -180, 15, 20, 45, 'white', 'lightgreen')
+    triangle(-491, -194, 10, 315, 'white', 'green')
+    triangle(-260, -51, 26, 45, 'white', 'pink')
+    triangle(-257, -85, 33, 90, 'white', 'purple')
+    triangle(-255, -84, 40, 135, 'white', 'red')
+    triangle(-470, -31, 26, 45, 'white', 'pink')
+    triangle(-467, -65, 33, 90, 'white', 'purple')
+    triangle(-465, -64, 40, 135, 'white', 'red')
+
 
 def main():
     turtle.speed(0)
@@ -177,8 +188,9 @@ def main():
     picture_2()
     picture_3()
     picture_4()
-    picture_5()
-    picture_6()
+    rocket()
+    pep_love()
+
     turtle.mainloop()
 
 
