@@ -124,9 +124,13 @@ def picture_2():
 
 
 def picture_3():
-    # 1x3
-    # 150, 150
-    # Nikita
+    rhombus(100, 0, 70, 50, 135, 'black', 'green')
+    square(65, 0, 50, 0, 'black', 'orange')
+    triangle(65, -25, 80, 270, 'black', 'red')
+    triangle(-15, -185, 80, 90, 'black', 'yellow')
+    triangle(65, -80, 40, 315, 'black', 'pink')
+    triangle(45, -125, 60, 270, 'black', 'blue')
+    triangle(85, -185, 40, 180, 'black', 'purple')
     pass
 
 
@@ -167,7 +171,6 @@ def picture_6():
     pass
 
 def main():
-
     turtle.speed(0)
     turtle.hideturtle()
     picture_1()
@@ -176,7 +179,6 @@ def main():
     picture_4()
     picture_5()
     picture_6()
-
     turtle.mainloop()
 
 
