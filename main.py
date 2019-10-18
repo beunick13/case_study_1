@@ -123,21 +123,33 @@ def picture_2():
     pass
 
 
-def picture_3():
-    rhombus(100, 0, 70, 50, 135, 'black', 'green')
-    square(65, 0, 50, 0, 'black', 'orange')
-    triangle(65, -25, 80, 270, 'black', 'red')
-    triangle(-15, -185, 80, 90, 'black', 'yellow')
-    triangle(65, -80, 40, 315, 'black', 'pink')
-    triangle(45, -125, 60, 270, 'black', 'blue')
-    triangle(85, -185, 40, 180, 'black', 'purple')
+def hare():
+    rhombus(100, -50, 70, 50, 135, 'black', 'green')
+    square(65, -50, 50, 0, 'black', 'orange')
+    triangle(65, -75, 80, 270, 'black', 'red')
+    triangle(-15, -235, 80, 90, 'black', 'yellow')
+    triangle(65, -130, 40, 315, 'black', 'pink')
+    triangle(45, -175, 60, 270, 'black', 'blue')
+    triangle(85, -235, 40, 180, 'black', 'purple')
     pass
 
 
-def picture_4():
+def deer():
     # 2x1
     # -450, -150
     # Anzhelika
+    rectangle(90, 320, 15, 80, 0, 'black', 'yellow')
+    circle(100, 300, 30, '', 'orange')
+    circle(110, 295, 30, '', 'orange')
+    triangle(83, 353, 15, 60, 'black', 'brown')
+    triangle(95, 355, 15, 50, 'black', 'brown')
+    rhombus(105, 190, 70, 115, 135, 'black', 'brown')
+    triangle(55, 240, 50, 0, 'black', 'yellow')
+    rectangle(75, 190, 10, 80, 0, 'black', 'yellow')
+    rectangle(65, 190, 10, 80, 0, 'black', 'yellow')
+    rectangle(0, 190, 10, 80, 0, 'black', 'brown')
+    rectangle(-10, 190, 10, 80, 0, 'black', 'brown')
+    triangle(-57, 240, 20, 270, 'black', 'brown')
     pass
 
 
@@ -186,8 +198,8 @@ def main():
     turtle.hideturtle()
     picture_1()
     picture_2()
-    picture_3()
-    picture_4()
+    hare()
+    deer()
     rocket()
     pep_love()
 
