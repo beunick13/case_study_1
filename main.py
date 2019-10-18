@@ -1,5 +1,4 @@
 # Case 1
-
 # Developers:   Nikita Beushev ()
 #               Alexandra Kozadeeva (60%)
 #               Anzhelika Kurepova ()
@@ -27,6 +26,8 @@ def square(x, y, a, angle, line_color, fill_color):
     turtle.right(90)
     turtle.end_fill()
     pass
+
+
 def rectangle(x, y, a, b, angle, line_color, fill_color):
     #TODO: (Alexandra) square
     turtle.up()
@@ -46,6 +47,7 @@ def rectangle(x, y, a, b, angle, line_color, fill_color):
     turtle.right(90)
     turtle.end_fill()
     pass
+
 
 def triangle(x, y, size, angle, line_color, fill_color):
     #TODO: (Anzhelika) triangle
@@ -108,11 +110,18 @@ def line(x, y, length, angle, line_color):
     pass
 
 
-def picture_1():
+def ship():
     # 1x1
     # -450, 150
     # Nikita
-    rhombus(-450,150, 50, 100, 35, 'red', 'blue')
+    rhombus(-174, 0, 75, 75, 135, 'green', 'green')
+    triangle(-118, 53,75,225,'blue','blue')
+    triangle(-200, 55, 50, 45, 'pink', 'pink')
+    triangle(-200, 200, 100, 315, 'yellow', 'yellow')
+    triangle(-202, 155, 100, 270, 'red', 'red')
+    triangle(-150, 203, 50, 180, 'purple', 'purple')
+    square(-163, 92,50,45,'orange','orange')
+
     pass
 
 
@@ -196,7 +205,7 @@ def pep_love():
 def main():
     turtle.speed(0)
     turtle.hideturtle()
-    picture_1()
+    ship()
     picture_2()
     hare()
     deer()
