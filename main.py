@@ -25,7 +25,6 @@ def square(x, y, a, angle, line_color, fill_color):
     turtle.forward(a)
     turtle.right(90)
     turtle.end_fill()
-    pass
 
 
 def rectangle(x, y, a, b, angle, line_color, fill_color):
@@ -46,7 +45,6 @@ def rectangle(x, y, a, b, angle, line_color, fill_color):
     turtle.forward(b)
     turtle.right(90)
     turtle.end_fill()
-    pass
 
 
 def triangle(x, y, size, angle, line_color, fill_color):
@@ -64,7 +62,6 @@ def triangle(x, y, size, angle, line_color, fill_color):
     turtle.right(135)
     turtle.forward(size * math.sqrt(2))
     turtle.end_fill()
-    pass
 
 
 def rhombus(x, y, length, height, angle, line_color, fill_color):
@@ -85,7 +82,6 @@ def rhombus(x, y, length, height, angle, line_color, fill_color):
     turtle.forward(height)
     turtle.left(135)
     turtle.end_fill()
-    pass
 
 
 def circle (x, y, radius, line_color, fill_color):
@@ -97,7 +93,6 @@ def circle (x, y, radius, line_color, fill_color):
     turtle.begin_fill()
     turtle.circle(radius)
     turtle.end_fill()
-    pass
 
 
 def line(x, y, length, angle, line_color):
@@ -107,29 +102,26 @@ def line(x, y, length, angle, line_color):
     turtle.pencolor(line_color)
     turtle.down()
     turtle.forward(length)
-    pass
 
 
 def ship():
-    # 1x1
-    # -450, 150
-    # Nikita
-    rhombus(-174, 0, 75, 75, 135, 'green', 'green')
-    triangle(-118, 53,75,225,'blue','blue')
-    triangle(-200, 55, 50, 45, 'pink', 'pink')
-    triangle(-200, 200, 100, 315, 'yellow', 'yellow')
-    triangle(-202, 155, 100, 270, 'red', 'red')
-    triangle(-150, 203, 50, 180, 'purple', 'purple')
-    square(-163, 92,50,45,'orange','orange')
-
-    pass
+    rhombus(-174, 100, 75, 75, 135, 'brown', 'brown')
+    triangle(-118, 153,75,225,'salmon4','salmon4')
+    triangle(-200, 155, 50, 45, 'gray93', 'white smoke')
+    triangle(-200, 300, 100, 315, 'gray93', 'ghost white')
+    triangle(-202, 255, 100, 270, 'gray93', 'snow')
+    triangle(-150, 303, 50, 180, 'black', 'black')
+    square(-163, 192,50,45,'gray93','gray95')
 
 
-def picture_2():
-    # 1x2
-    # -150, 150
-    # Nikita
-    pass
+def fish():
+    rhombus(223, 101, 75, 50, 135, 'sky blue', 'sky blue')
+    square(225, 100, 50, 45, 'royal blue', 'royal blue')
+    triangle(299, 135, 50, 315, 'powder blue', 'powder blue')
+    triangle(297, 98, 75, 270, 'blue', 'blue')
+    triangle(222, 177, 75, 0, 'deep sky blue', 'deep sky blue')
+    triangle(171, 99, 50, 270, 'steel blue', 'steel blue')
+    triangle(173, 49, 50, 90, 'light steel blue', 'light steel blue')
 
 
 def hare():
@@ -140,13 +132,9 @@ def hare():
     triangle(65, -130, 40, 315, 'black', 'pink')
     triangle(45, -175, 60, 270, 'black', 'blue')
     triangle(85, -235, 40, 180, 'black', 'purple')
-    pass
 
 
 def deer():
-    # 2x1
-    # -450, -150
-    # Anzhelika
     rectangle(90, 320, 15, 80, 0, 'black', 'yellow')
     circle(100, 300, 30, '', 'orange')
     circle(110, 295, 30, '', 'orange')
@@ -159,7 +147,6 @@ def deer():
     rectangle(0, 190, 10, 80, 0, 'black', 'brown')
     rectangle(-10, 190, 10, 80, 0, 'black', 'brown')
     triangle(-57, 240, 20, 270, 'black', 'brown')
-    pass
 
 
 def rocket():
@@ -170,6 +157,7 @@ def rocket():
     square(-165, -225, 50, 45, 'white', 'orange')
     triangle(-95, -295, 50, 135, 'white', 'purple')
     rhombus(-235, -290, 50, 70, 45, 'white', 'green')
+
 
 def pep_love():
     circle (-300, -250, 100, 'white', 'red')
@@ -206,12 +194,11 @@ def main():
     turtle.speed(0)
     turtle.hideturtle()
     ship()
-    picture_2()
+    fish()
     hare()
     deer()
     rocket()
     pep_love()
-
     turtle.mainloop()
 
 
