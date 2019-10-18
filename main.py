@@ -7,6 +7,7 @@
 import turtle
 import math
 
+
 def square(x, y, a, angle, line_color, fill_color):
     #TODO: (Alexandra) square
     turtle.up()
@@ -26,6 +27,7 @@ def square(x, y, a, angle, line_color, fill_color):
     turtle.right(90)
     turtle.end_fill()
     pass
+
 
 def triangle(x, y, size, angle, line_color, fill_color):
     #TODO: (Anzhelika) triangle
@@ -65,6 +67,7 @@ def rhombus(x, y, length, height, angle, line_color, fill_color):
     turtle.end_fill()
     pass
 
+
 def circle (x, y, radius, line_color, fill_color):
     turtle.up()
     turtle.setposition(x, y)
@@ -76,6 +79,7 @@ def circle (x, y, radius, line_color, fill_color):
     turtle.end_fill()
     pass
 
+
 def line(x, y, length, angle, line_color):
     turtle.up()
     turtle.setposition(x, y)
@@ -85,17 +89,88 @@ def line(x, y, length, angle, line_color):
     turtle.forward(length)
     pass
 
+
+def picture_1():
+    # 1x1
+    # -450, 150
+    # Nikita
+    rhombus(-450,150, 50, 100, 35, 'red', 'blue')
+    pass
+
+
+def picture_2():
+    # 1x2
+    # -150, 150
+    # Nikita
+    pass
+
+
+def picture_3():
+    # 1x3
+    # 150, 150
+    # Nikita
+    pass
+
+
+def picture_4():
+    # 2x1
+    # -450, -150
+    # Anzhelika
+    pass
+
+
+def picture_5():
+    # 2x2
+    # -150, -150
+    # Anzhelika
+    pass
+
+
+def picture_6():
+    # 2x3
+    # 150, -150
+    # Anzhelika
+    pass
+
+
+def picture_7():
+    # 3x1
+    # -450, -450
+    # Alexandra
+    pass
+
+
+def picture_8():
+    # 3x2
+    # -150, -450
+    # Alexandra
+    pass
+
+
+def picture_9():
+    # 3x3
+    # 150, -450
+    # Alexandra
+    pass
+
+
 def main():
-    turtle.hideturtle()
+    turtle.setup(900, 900)
     turtle.speed(0)
-    square(-100, 0, 150, 'brown',0)
-    square(-70, -30, 50, 'red',0)
-    triangle(100,100,100,'red',20)
-    rhombus(200,200,200,300,'black', 150)
-    circle(0,0,100,'blue')
-    line(0,0,100,'black',0)
+    turtle.hideturtle()
+    picture_1()
+    picture_2()
+    picture_3()
+    picture_4()
+    picture_5()
+    picture_6()
+    picture_7()
+    picture_8()
+    picture_9()
     turtle.mainloop()
 
 
 if __name__ == '__main__':
     main()
+
+
