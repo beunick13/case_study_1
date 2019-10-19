@@ -1,7 +1,7 @@
 # Case 1
-# Developers:   Nikita Beushev ()
+# Developers:   Nikita Beushev (70%)
 #               Alexandra Kozadeeva (60%)
-#               Anzhelika Kurepova ()
+#               Anzhelika Kurepova (55%)
 
 import turtle
 import math
